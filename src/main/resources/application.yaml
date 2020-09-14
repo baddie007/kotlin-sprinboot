@@ -1,0 +1,9 @@
+server:
+  port:8080
+
+spring:
+  datasource:
+    url: jdbc:sqlserver://arpit9045.database.windows.net:1433;database=demo;encrypt=true;trustServerCertificate=false;hostNameInCertificate=*.database.windows.net;loginTimeout=30;
+    username: arpit
+    password: mysql@9045
+    initialization-mode: always
